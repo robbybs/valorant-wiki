@@ -1,7 +1,7 @@
 package com.rbs.valorantwiki
 
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material.Text
@@ -21,12 +21,14 @@ import com.rbs.valorantwiki.ui.theme.ValorantWikiTheme
 fun AboutScreen(modifier: Modifier = Modifier) {
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
-        modifier = modifier
+        modifier = modifier.fillMaxWidth()
     ) {
         Text(
             text = "About Me",
             fontWeight = FontWeight.Bold,
-            fontSize = 28.sp
+            fontSize = 28.sp,
+            modifier = modifier
+                .padding(top = 16.dp)
         )
         AsyncImage(
             model = "https://lh3.googleusercontent.com/drive-viewer/AFDK6gNo-p9Xit4xawpmm0mbUGowscbq9Yd0_8XOK8_05P33GyQ-FIFVf_REXWxhvIAV55m9fuAct7_tSkM7fz-3-zjrs42ySA=w1920-h865",

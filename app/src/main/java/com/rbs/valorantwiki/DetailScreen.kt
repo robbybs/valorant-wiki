@@ -3,6 +3,7 @@ package com.rbs.valorantwiki
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material.Text
@@ -52,14 +53,19 @@ fun DetailContent(
 ) {
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
-        modifier = modifier
+        modifier = modifier.fillMaxWidth()
     ) {
         AsyncImage(
             model = data.photoUrl,
             contentDescription = null,
             contentScale = ContentScale.Crop,
             modifier = modifier
-                .padding(8.dp)
+                .padding(
+                    start = 8.dp,
+                    top = 16.dp,
+                    end = 8.dp,
+                    bottom = 8.dp
+                )
                 .size(200.dp)
         )
         Text(
