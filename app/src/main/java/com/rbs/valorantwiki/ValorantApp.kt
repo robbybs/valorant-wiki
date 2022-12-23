@@ -1,6 +1,5 @@
 package com.rbs.valorantwiki
 
-import android.annotation.SuppressLint
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.compose.animation.AnimatedVisibility
@@ -23,6 +22,9 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.rbs.valorantwiki.config.Screen
+import com.rbs.valorantwiki.ui.detail.DetailScreen
+import com.rbs.valorantwiki.ui.home.HomeScreen
 
 @OptIn(ExperimentalAnimationApi::class)
 @RequiresApi(Build.VERSION_CODES.N)

@@ -1,8 +1,10 @@
-package com.rbs.valorantwiki
+package com.rbs.valorantwiki.config
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.rbs.valorantwiki.data.AgentRepository
+import com.rbs.valorantwiki.ui.detail.DetailViewModel
+import com.rbs.valorantwiki.ui.home.HomeViewModel
 
 class ViewModelFactory(private val repository: AgentRepository) :
     ViewModelProvider.NewInstanceFactory() {

@@ -1,7 +1,8 @@
-package com.rbs.valorantwiki
+package com.rbs.valorantwiki.ui.detail
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.rbs.valorantwiki.config.UiState
 import com.rbs.valorantwiki.data.AgentRepository
 import com.rbs.valorantwiki.model.OrderAgent
 import kotlinx.coroutines.flow.MutableStateFlow

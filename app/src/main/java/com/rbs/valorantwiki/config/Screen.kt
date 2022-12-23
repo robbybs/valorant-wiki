@@ -1,4 +1,4 @@
-package com.rbs.valorantwiki
+package com.rbs.valorantwiki.config
 
 sealed class Screen(val route: String) {
     object Home : Screen("home")

@@ -1,4 +1,4 @@
-package com.rbs.valorantwiki
+package com.rbs.valorantwiki.ui.detail
 
 import android.os.Build
 import androidx.annotation.RequiresApi
@@ -19,6 +19,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import coil.compose.AsyncImage
+import com.rbs.valorantwiki.config.UiState
+import com.rbs.valorantwiki.config.ViewModelFactory
 import com.rbs.valorantwiki.data.AgentRepository
 import com.rbs.valorantwiki.model.Agent
 import com.rbs.valorantwiki.ui.theme.ValorantWikiTheme

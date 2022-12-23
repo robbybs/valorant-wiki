@@ -1,4 +1,4 @@
-package com.rbs.valorantwiki
+package com.rbs.valorantwiki.config
 
 sealed class UiState<out T: Any?> {
     object Loading : UiState<Nothing>()
