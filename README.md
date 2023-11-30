@@ -1,5 +1,5 @@
 # Valorant Wiki
-This is submission of Belajar Membuat Aplikasi Android dengan Jetpack Compose
+This is submission of **Belajar Membuat Aplikasi Android dengan Jetpack Compose**
 
 _**By Robby Bagus Sadewa**_
 
